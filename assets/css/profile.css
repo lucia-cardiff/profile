@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Niramit', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: #333;
+}
+
+body {
+  background-color: white;
+  margin: 0 auto;
+  width: 50vw;
+  min-width: 800px;
+}
+
+header {
+  background-color: silver;
+  position: relative;
+}
+
+header > img,
+header > hgroup,
+header > nav {
+  height: 10em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header img {
+  height: 8em;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+header nav {
+  position: absolute;
+  right: 0;
+}
+
+header nav li {
+  height: 25%;
+  list-style-type: none;
+  background: whitesmoke;
+  padding: 0 2em 0 1em;
+  cursor: pointer;
+}
+
+header nav li:hover {
+  background-color: white;
+}
+
+header nav li a {
+  color: #333;
+
+}
+
+
+.clearfix {
+  clear: both;
+}
